@@ -32,7 +32,7 @@ div{
     width: 100%;
     height: 93vh;
     position: relative;
-    background-image: url(back1.jpg) no-repeat cover;
+    background-image: url(back1.jpg);
     
 }
 
@@ -240,4 +240,110 @@ div{
     height: 1.2em;
     width: 1.7em;
 }
+.animation-box{
+    color: white;
+    position: relative;
+    border: 8px solid #222;
+    background: transparent;
+    padding: 50px 5%;
+    margin: 0;
+    border-bottom: 4px solid #222;
+}
+.animation-box .animation-container{
+    max-width: 1100px;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -moz-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+.animation-box .animation-text{
+    width: 52%;
+    height: 100%;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 1 auto;
+    -moz-box-flex: 0;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    padding: 0 3rem 0 0;
+    z-index: 3;
+    font-size: 1.625rem;
+    font-weight: normal;
+}
+.animation-text .animation-title{
+    font-size: 2em;
+    display: block;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.animation-text .animation-subtitle{
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.animation-box .img-container{
+    width: 48%;
+    height: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 1 auto;
+    -moz-box-flex: 0;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.animation-box .animation-img-conatiner{
+    position: relative;
+    z-index: 2;
+    max-width: 100%;
+    height: auto;
+    border: 0;
+}
+.animation-box .vedio-animation{
+    width: 100%;
+    height: 100%;
+    max-width: 73%;
+    max-height: 54%;
+    position: absolute;
+    top: 46%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.animation-box .vedio{
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    vertical-align: baseline;
+    object-fit: contain;
+}
 
+
+    
